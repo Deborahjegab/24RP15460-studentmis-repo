@@ -99,7 +99,7 @@ a:hover {
 </head>
 <body>
     <div class="form-container">
-        <h2>RP MUSANZE COLLEGE</h2>
+        <h2>STUDENT MIS SYSTEM</h2>
         <form action="process_registration.php" method="POST">
             <label for="names">Full Name:</label>
             <input type="text" id="names" name="names" required>
@@ -108,7 +108,7 @@ a:hover {
             <input type="email" id="email" name="email" required>
 
             <label for="password">Password:</label>
-            <input type="password" id="password" name="password" required>
+            <input type="password" id="password" name="password"  required>
 
             <button type="submit">Register</button>
         </form>

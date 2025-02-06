@@ -6,7 +6,6 @@ RUN a2enmod rewrite
 
 # Copy your local code to the container's web directory
 COPY . /var/www/html/
-
 # Set permissions for the Apache user to access the code
 RUN chown -R www-data:www-data /var/www/html/
 
